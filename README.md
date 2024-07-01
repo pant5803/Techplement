@@ -1,4 +1,4 @@
-This is a QUOTE OF THE WEBSITE. It fetches quotes from the api 'https://type.fit/api/quotes'. 
+This is a QUOTE OF THE DAY WEBSITE. It fetches quotes from the api 'https://type.fit/api/quotes'. 
 It has multiple functionalities.
 It allows user to search any quote by author name.
 User login / signup authentication and validation is provided. ZOD validation for user Signup.
