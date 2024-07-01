@@ -1,0 +1,75 @@
+.moreQuotesContainer {
+  display: flex;
+  margin-left: 250px;
+  min-height: 100vh;
+}
+
+.mainContent {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.quoteCard {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  min-width: 600px; /* Maximum width of each card */
+  width: 100%; /* Ensure cards take full width */
+  margin: 20px;
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.quoteCard:hover {
+  transform: translateY(-10px);
+}
+
+.quote {
+  font-size: 1.5rem;
+  color: #343a40;
+  margin: 20px 0;
+}
+
+.quoteIcon {
+  font-size: 2rem;
+  color: rgb(247, 117, 139);
+}
+
+.author {
+  font-size: 1.2rem;
+  color: #495057;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: rgb(250, 138, 157);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  margin: 0 5px;
+}
+
+.button:hover {
+  background-color: rgb(248, 80, 108);
+}
+
+.icon {
+  margin-right: 8px;
+}
